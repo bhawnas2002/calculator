@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-image:url(bubble.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    color: aliceblue;
+}
+.container{
+    text-align: center;
+    padding: 20px;
+    border: 2px whitesmoke solid;
+    height: 45vh;
+    margin-top: 8rem;
+}
+#display{
+    height: 5vh;
+    padding: 10px;
+    width: 16.4vw;
+    /* direction: rtl; */
+    text-align: right;
+}
+#buttons{
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+}
+.numbers{
+    height: 5vh;
+    width: 4vw;
+}
+.operator{
+    height: 5vh;
+    width: 4vw;
+}
+.zero{
+    grid-column: 3/5;
+    background-color: red;
+}
+.zero:hover{
+    background-color: crimson;
+}
+.equal{
+    background-color: green;
+}
+.equal:hover{
+    background-color: rgb(82, 194, 82);
+}
+.button{
+    border: 1px black solid;
+}
